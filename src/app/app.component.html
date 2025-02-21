@@ -1,0 +1,12 @@
+<nav class="navbar">
+  <a href="#" class="navbar-brand">FABS</a>
+  <button class="navbar-toggler" onclick="toggleMenu()">☰</button>
+  <ul id="navbarMenu">
+    <!-- <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><i class="fas fa-home"></i> Home</a></li> -->
+    <li><a routerLink="/about" routerLinkActive="active"><i class="fas fa-user"></i> About</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active"><i class="fas fa-briefcase"></i> Projects</a></li>
+    <li><a routerLink="/contacts" routerLinkActive="active"><i class="fas fa-envelope"></i> Contacts</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
